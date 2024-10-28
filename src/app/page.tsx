@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className="text-6xl font-mono font-bold text-amber-500 underline">
           *ShadCN-UI*
         </h1><br /><br />
-        <div className="relative w-96 h-72 ml-[443px]">
+        <div className="relative w-96 h-72 ml-[400px]">
           <Image
             src="/images/image1.jpg"
             alt="image 1"
