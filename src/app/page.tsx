@@ -1,101 +1,69 @@
+import Footer from "@/components/footer";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <main className="flex min-h-screen flex-col text-center p-14 bg-gray-400">
+        <h1 className="text-6xl font-mono font-bold text-amber-500 underline">
+          *ShadCN-UI*
+        </h1><br /><br />
+        <div className="relative w-96 h-72 ml-[443px]">
+          <Image
+            src="/images/image1.jpg"
+            alt="image 1"
+            layout="fill" 
+            objectFit="cover"
+          />
+        </div><br /><br />
+        <p className="text-2xl font-semibold">
+        ShadCN is a UI library that provides built-in components that focus on "Radix-UI" && Tailwind CSS.
+        It is not a components library but a Collection of re-usable Components that you can use in Your Project's.
+        </p>
+        <br /><br /><br /><br /><br /><br />
+        <h1 className=" text-3xl font-bold mr-[600px] font-mono">Download Links ShadCN-UI Own Your Project :</h1>
+       <br /> <h2 className="relative text-2xl font-bold mr-[1000px] text-blue-600 font-mono underline">Links: </h2> <br />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+         
+        <div className="relative h-96">
+          <Image
+            src="/images/linksimg.jpg"
+            alt="Links Image"
+            layout="fill" 
+            objectFit="cover"
+          />
         </div>
+
+<br /><br /><br /><br /><br />
+    <h2 className="text-3xl underline font-mono font-semibold  text-amber-500 mr-[900px]">"ShadCN-UI"</h2><br />
+<p className="text-xl font-semibold">It provides a set of Flexibility Components that make it easy for Developers to implement them in their own Projects. We also Customized Of ShadCN Re-usable Components with the help of Tailwind CSS. This Library Also saves Uptime</p><br /><br />
+<br /><br />
+<h2 className="text-3xl underline font-mono font-bold  mr-[500px]">*-How To Use ShadCN-UI Components ?</h2><br /><br />
+<p className="text-xl mr-[390px] font-semibold"> *First of all, you have to select one of the components and run its command</p><br />
+<p className="text-blue-500 text-xl font-mono font-semibold mr-[920px]">For Example :</p>
+<br />
+<div className="relative w-[700px] h-40 mr-[359px]">
+          <Image
+            src="/images/link1.jpg"
+            alt="Link 1"
+            layout="fill" 
+            objectFit="cover"
+          />
+        </div><br /><br /><br /><br />
+        <p className="text-xl font-semibold"> *But you must have written a Code below which you will import in your Components and Copy and Paste the code after return, then your components will Run.</p><br />
+<p className="text-blue-500 text-xl font-mono font-semibold mr-[920px]">For Example :</p><br />
+<div className="relative w-[500px] h-[400px] mr-[359px]">
+          <Image
+            src="/images/link2.jpg"
+            alt="link 2"
+            layout="fill" 
+            objectFit="cover"
+          />
+        </div>
+        <br />
+        <p className="font-mono text-2xl text-blue-600 font-semibold">Your components will run on Var and you will also use to do Custom Styling</p>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      <Footer/>
+    </>
   );
 }
