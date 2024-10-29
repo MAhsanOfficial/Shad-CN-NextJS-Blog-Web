@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className='text-center flex justify-center flex-col'>
           <h1 className='text-3xl'>Welcome To AH5an's Works</h1>
           <p>I help real Website Developing Get more Clients by making highly Converting Websites</p>
-          <p>Create by Ahsan ShadCN-UI</p>
+          <p>Create by Ahsan ShadCN-UI && Radix-UI</p>
         </div>
         <div className='flex justify-center'>
           <ul>
