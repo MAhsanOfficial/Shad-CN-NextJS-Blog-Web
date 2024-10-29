@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col text-center p-6 sm:p-10 lg:p-14 bg-gray-400">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-mono font-bold text-amber-500 underline">
+      <main className="flex min-h-screen flex-col text-center p-6 sm:p-10 lg:p-14 bg-yellow-500">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-mono font-bold text-purple-500 underline">
           *ShadCN-UI*
         </h1>
         <div className="mt-6 mb-10 flex justify-center">
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
 
         <div className="mt-16 text-left mx-auto max-w-4xl">
-          <h2 className="text-3xl underline font-mono font-semibold text-amber-500">
+          <h2 className="text-3xl underline font-mono font-semibold text-red-500">
             "ShadCN-UI"
           </h2>
           <p className="text-lg sm:text-xl font-semibold mt-4">
@@ -97,7 +97,7 @@ export default function Home() {
         </div>
 
         <div className="mt-20 text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-mono font-bold text-amber-500 underline">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-mono font-bold text-green-800 underline">
             *Radix-UI*
           </h1>
           <div className="flex justify-center mt-6 mb-10">
@@ -136,7 +136,7 @@ export default function Home() {
           </div>
 
           <div className="mt-16 text-left mx-auto max-w-4xl">
-            <h2 className="text-3xl underline font-mono font-semibold text-amber-500">
+            <h2 className="text-3xl underline font-mono font-semibold text-red-500">
               "Radix-UI"
             </h2>
             <p className="text-lg sm:text-xl font-semibold mt-4">
