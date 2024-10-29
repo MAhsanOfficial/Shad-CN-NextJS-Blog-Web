@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col text-center p-6 sm:p-10 lg:p-14 bg-yellow-500">
+      <main className="flex min-h-screen flex-col text-center p-6 sm:p-10 lg:p-14 bg-gray-300">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-mono font-bold text-purple-500 underline">
           *ShadCN-UI*
         </h1>
